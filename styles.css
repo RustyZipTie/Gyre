@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+
+body * {
+    font-family: 'Courier New', Courier, monospace;
+    padding-inline: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(41, 63, 84);
+    font-family: cursive;
+    text-align: left;
+}
+
+h1 img {
+    height: 225px;
+}
+
+ul {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    margin-inline-start: 30px;
+}
+
+li {
+    font-size: 30px;
+    padding-inline: 0;
+    list-style: none;
+    margin-block: 15px;
+    background-image: url('joint.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding-inline-start: 30px;
+}
+
