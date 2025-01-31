@@ -14,14 +14,22 @@ h1 {
     text-align: left;
 }
 
+h2 {
+    margin-inline-start: 30px;
+}
+
+.main_content > img {
+    float: right;
+}
+
 h1 img {
     height: 225px;
 }
 
 ul {
-    border: 1px solid black;
+    border: 3px groove rgb(41, 63, 84);
     border-radius: 15px;
-    width: fit-content;
+    width: auto;
     margin-inline-start: 30px;
 }
 
@@ -32,8 +40,31 @@ li {
     margin-block: 15px;
     background-image: url('joint.png');
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 20px;
-    padding-inline-start: 30px;
+    background-position: left top;
+    background-size: 30px;
+    padding-inline-start: 40px;
+}
+
+.tree, .tree ul {
+    width: fit-content;
+    
+}
+
+.tree ul {
+    border: none;
+}
+.tree li {
+    background-image: none;
+}
+
+.tree img {
+    height: 100px;
+}
+
+.floaty {
+    width: 800px;
+    /* border: 1px solid black; */
+    border-radius: 100px;
+    float: right;
 }
 

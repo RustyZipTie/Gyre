@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,19 @@
     <link rel="icon" type="image/png" href="joint.png">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>
         <img src="gyre.png" alt="gyre joint">
         Organization with a twist
     </h1>
-    
+
     <h2>The ultimate 3d-printed organization system for your shop, kitchen, room, house, and more</h2>
-  
+    <video class="floaty" autoplay muted loop>
+        <source src="https://github.com/RustyZipTie/gyre-source/blob/main/gyre.mp4?raw=true" type="video/mp4">
+    </video>
+
+    <img src="demo_final.png" alt="gyre demo" class="floaty">
     <ul>
         <li>Modular and infinitely expandable</li>
         <li>Free to use and remix</li>
@@ -23,6 +29,109 @@
         <li>Integrates with Gridfinity</li>
     </ul>
 
+    <h2><br />How to get it:</h2>
+    <ul>
+        <li>
+            <a href="#catalog">The Catalog</a>-
+            Browse the models and download STLs for printing. Easy as that.
+        </li>
+        <li>
+            <a
+                href="https://cad.onshape.com/documents/9e06891469d51d2e78eeebf4/w/8d63af5475c88c87d3523b0d/e/9ed6bb0fb271472b238fb4d0">Onshape</a>-
+            Check out the original designs (many are configurable!), export in your preferred file format, and create
+            your own customizations.
+            The sky is the limit!
+        </li>
+        <li>
+            <a href="https://www.thingiverse.com/thing:6913421">Thingiverse</a>-
+            Check out the thingiverse page to download models and post comments, makes, and remixes.
+        </li>
+
+    </ul>
+    <!-- <input type="color"> -->
+    <ul class="tree" id="catalog">
+        <li>
+            <details open>
+                <summary>The Framework</summary>
+                <ul>
+                    <li>
+                        <details>
+                            <summary>The Rails</summary>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        6x wide <br />
+                                        <img src="6x_wide.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        8x wide <br />
+                                        <img src="8x_wide.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>The Joints</summary>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Straight <br />
+                                        <img src="joint_straight.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://github.com/RustyZipTie/gyre-source/blob/main/joint_120.stl?raw=true">
+                                        120° <br />
+                                        <img src="joint_120.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Triple <br />
+                                        <img src="joint_tri.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>The Locks</summary>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Solid <br />
+                                        <img src="lock_solid.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Hollow <br />
+                                        <img src="lock_hollow.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>The Attatchments</summary>
+                <ul>
+                    <li>Rail</li>
+                    <li>Joint</li>
+                </ul>
+            </details>
+        </li>
+    </ul>
 
 </body>
+
 </html>
