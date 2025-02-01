@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     margin-inline-start: 30px;
+    font-size: 40px;
 }
 
 .main_content > img {
@@ -67,4 +68,10 @@ li {
     border-radius: 100px;
     float: right;
 }
+
+#catalog::after {
+    content: url("https://github.com/RustyZipTie/gyre-source/blob/main/gyre.mp4?raw=true");
+    width: 500px;
+}
+
 
