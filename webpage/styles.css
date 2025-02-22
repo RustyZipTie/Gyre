@@ -8,11 +8,12 @@ body * {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 75px;
+    line-height: 225px;
     color: rgb(41, 63, 84);
-    font-family: cursive;
     text-align: left;
 }
+
 
 h2 {
     margin-inline-start: 30px;
@@ -23,11 +24,27 @@ h2 {
     float: right;
 }
 
-h1 img {
+#icon {
+    float: left;
     height: 225px;
 }
 
-ul {
+#portrait {
+    height: 150px;
+    border-radius: 50%;
+}
+
+p {
+    border: 3px groove rgb(41, 63, 84);
+    border-radius: 15px;
+    width: auto;
+    margin-inline-start: 30px;
+    font-size: 30px; 
+    padding: 15px;   
+    line-height: 40px;
+}
+
+ul, p {
     border: 3px groove rgb(41, 63, 84);
     border-radius: 15px;
     width: auto;
@@ -39,7 +56,7 @@ li {
     padding-inline: 0;
     list-style: none;
     margin-block: 15px;
-    background-image: url('joint.png');
+    background-image: url('https://github.com/RustyZipTie/Gyre/blob/main/source/img/joint.png?raw=true');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 30px;
@@ -69,7 +86,4 @@ li {
     float: right;
 }
 
-#catalog::after {
-    content: url("https://github.com/RustyZipTie/gyre-source/blob/main/gyre.mp4?raw=true");
-    width: 500px;
-}
+
